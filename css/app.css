@@ -22,6 +22,7 @@ html {
 
 body {
   margin: 0;
+ 
 }
 
 /**
@@ -625,6 +626,21 @@ video {
   .container {
     max-width: 1280px;
   }
+}
+
+.encabezado {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.75rem
+}
+
+.caja {
+  border-radius: 0.25rem;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25)
 }
 
 .appearance-none {
